@@ -1,0 +1,24 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "errorMessage" : {
+      "title" : "errorMessage",
+      "description" : "if no macth give error",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "parsedResumeData" : {
+      "title" : "parsedResumeData",
+      "description" : "if application id matched for eg \"123456\" take parsed resume text and You are a smart HR screening assistant. When given an application ID, you must fetch the corresponding resume parsed text from the backend system. Use that to generate:\n- 5 resume-specific technical questions\n- 1 behavioral question\n- 1 Salesforce-specific question\nReturn all 7 questions clearly to the candidate.\n\nthe questions you get give one by one so if there are 7 questions do first then second then third\nbut dont straight away jump to question but first make familirzation with the candiate with 2-3 question ask if he is reayd if ready then start",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

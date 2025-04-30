@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Job Listing Company Page</label>
+    <site>
+        <urlPathPrefix>careers</urlPathPrefix>
+    </site>
+    <space>site/Job_Listing_Company_Page1</space>
+</DigitalExperienceConfig>

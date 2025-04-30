@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectSourceTargetMap xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <creationType>Custom</creationType>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>&apos;AzurePostgres_PostGres_job_listings&apos;</sourceFormula>
+        <targetField>job_listings_PostGres__dll.DataSourceObject__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>job_listings_PostGres.location__c</sourceField>
+        <sourceFormula>location</sourceFormula>
+        <targetField>job_listings_PostGres__dll.location__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>&apos;AzurePostgres_PostGres&apos;</sourceFormula>
+        <targetField>job_listings_PostGres__dll.DataSource__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <targetField>job_listings_PostGres__dll.InternalOrganization__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>job_listings_PostGres.title__c</sourceField>
+        <sourceFormula>title</sourceFormula>
+        <targetField>job_listings_PostGres__dll.title__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>job_listings_PostGres.deadline__c</sourceField>
+        <sourceFormula>deadline</sourceFormula>
+        <targetField>job_listings_PostGres__dll.deadline__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>job_listings_PostGres.job_id__c</sourceField>
+        <sourceFormula>job_id</sourceFormula>
+        <targetField>job_listings_PostGres__dll.job_id__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>job_listings_PostGres.description__c</sourceField>
+        <sourceFormula>description</sourceFormula>
+        <targetField>job_listings_PostGres__dll.description__c</targetField>
+    </fieldSourceTargetMaps>
+    <masterLabel>job_listings_PostGres_map_job_listings_PostGres_1745951925922</masterLabel>
+    <sourceObjectName>job_listings_PostGres</sourceObjectName>
+    <targetObjectName>job_listings_PostGres__dll</targetObjectName>
+</ObjectSourceTargetMap>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktDataTranObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connector>UploadedFiles</connector>
+    <creationType>Custom</creationType>
+    <dataSource>UPLOADEDFILES_UploadedFiles</dataSource>
+    <dataSourceObject>jobdataset1_dll</dataSourceObject>
+    <masterLabel>jobdataset1</masterLabel>
+    <mktDataTranFields>
+        <fullName>Job_Description</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Job Description</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Job Description</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>2</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Job_Title</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Job Title</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Job Title</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>1</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Serial_Number</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Serial Number</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Serial Number</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>0</sequence>
+    </mktDataTranFields>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Related</objectCategory>
+</MktDataTranObject>

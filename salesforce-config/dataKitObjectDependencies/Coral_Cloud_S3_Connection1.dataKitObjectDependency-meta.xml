@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Coral_Cloud_Data_Kit_Sample_App</dataPackageKitDef>
+    <developerName>Coral_Cloud_S3_Connection1</developerName>
+    <masterLabel>Coral Cloud S3 Connection</masterLabel>
+    <sourceObject>Guest</sourceObject>
+    <sourceObjectType>DataStreamTemplate</sourceObjectType>
+    <targetObject>Coral_Cloud_S3_Connection</targetObject>
+</DataKitObjectDependency>

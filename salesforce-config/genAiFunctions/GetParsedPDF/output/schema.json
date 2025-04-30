@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "output" : {
+      "title" : "output",
+      "description" : "from the appliation id fetch the resume parsed text\n\nYou are a smart HR screening assistant. When given an application ID, you must fetch the corresponding resume from the backend system. Use that to generate:\n- 5 resume-specific technical questions\n- 1 behavioral question\n- 1 Salesforce-specific question\nReturn all 7 questions clearly to the candidate.\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

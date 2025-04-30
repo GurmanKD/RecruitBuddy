@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areHeadersIncludedInFile>false</areHeadersIncludedInFile>
+    <bulkIngest>false</bulkIngest>
+    <creationType>Custom</creationType>
+    <dataConnector>UploadedFiles</dataConnector>
+    <dataConnectorType>UploadedFiles</dataConnectorType>
+    <dataPlatformDataSetItemName>CONNECTORSFRAMEWORK</dataPlatformDataSetItemName>
+    <dataSource>UPLOADEDFILES_UploadedFiles</dataSource>
+    <isLimitedToNewFiles>false</isLimitedToNewFiles>
+    <isMissingFileFailure>false</isMissingFileFailure>
+    <masterLabel>Software Questions.csv</masterLabel>
+    <mktDataLakeObject>Software_Questionscsv__dll</mktDataLakeObject>
+    <mktDataTranObject>Software_Questionscsv</mktDataTranObject>
+    <parameters>
+        <fullName>Software_Questionscsv_delimiter</fullName>
+        <paramName>delimiter</paramName>
+        <value>,</value>
+    </parameters>
+    <parameters>
+        <fullName>Software_Questionscsv_fileName</fullName>
+        <paramName>fileName</paramName>
+        <value>Software Questions.csv</value>
+    </parameters>
+    <parameters>
+        <fullName>Software_Questionscsv_fileType</fullName>
+        <paramName>fileType</paramName>
+        <value>CSV</value>
+    </parameters>
+    <parameters>
+        <fullName>Software_Questionscsv_importDirectory</fullName>
+        <paramName>importDirectory</paramName>
+        <value>005NS00000KAw5dYAD/2025-04-29T11:48:56.439Z</value>
+    </parameters>
+    <parameters>
+        <fullName>Software_Questionscsv_parentDirectory</fullName>
+        <paramName>parentDirectory</paramName>
+        <value>s3://aws-prod2-apsouth1-cdp2-lakehouse-2/sfdrive/a360-prod2-98182782e94848cdab5eb7d8571ecb3c/flup-fileUploads/dc_file_upload</value>
+    </parameters>
+</DataStreamDefinition>

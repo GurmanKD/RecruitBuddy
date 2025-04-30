@@ -1,0 +1,14 @@
+{
+  "required" : [ "applicationId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "applicationId" : {
+      "title" : "applicationId",
+      "description" : "take input of application id for eg \"123456\"",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

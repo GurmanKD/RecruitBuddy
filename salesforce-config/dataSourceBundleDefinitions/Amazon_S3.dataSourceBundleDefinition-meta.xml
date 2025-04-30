@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceBundleDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPlatform>AwsS3</dataPlatform>
+    <description>Guest and reservation records from Amazon S3</description>
+    <isMultiDeploymentSupported>false</isMultiDeploymentSupported>
+    <masterLabel>Amazon_S3</masterLabel>
+</DataSourceBundleDefinition>

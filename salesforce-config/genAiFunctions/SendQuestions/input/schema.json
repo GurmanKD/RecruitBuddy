@@ -1,0 +1,14 @@
+{
+  "required" : [ "message" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "message" : {
+      "title" : "message",
+      "description" : "as oon as aaplication id is given draft a message of application id and all 7 messages you will be asking ",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

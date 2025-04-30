@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Coral_Cloud_Data_Kit_Sample_App</masterLabel>
+    <parentDataPackageKitDefinitionName>Coral_Cloud_Data_Kit_Sample_App</parentDataPackageKitDefinitionName>
+    <referenceObjectName>Reservation_Contact_ID_map_ssot_Individual_ssot_Id_1725982094015</referenceObjectName>
+    <referenceObjectType>FieldSrcTrgtRelationship</referenceObjectType>
+</DataPackageKitObject>

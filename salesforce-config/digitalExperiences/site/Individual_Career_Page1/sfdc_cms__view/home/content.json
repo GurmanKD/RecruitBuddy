@@ -1,0 +1,70 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"18b83489-6348-43c7-b832-3b5846f9b3e5\",\"columns\":[{\"UUID\":\"ac94c7bd-2094-4079-b000-c7ccbce5f521\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<div style=\"max-width: 900px; margin: 50px auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #16325c; padding: 30px; background-color: white; border-radius: 12px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);\">\n  <!-- Header Section -->\n  <div style=\"display: flex; align-items: center; gap: 30px; flex-wrap: wrap;\">\n    <div style=\"flex: 1;\">\n      <h1 style=\"margin: 0; font-size: 36px; font-weight: 700; color: #0070d2; letter-spacing: -0.5px;\">Technical Consultant</h1>\n      <p style=\"margin: 10px 0; font-size: 18px; color: #54698d; font-weight: 500;\">Customer Success | Morocco - Casablanca | Full Time</p>\n      <div style=\"display: flex; align-items: center; margin-top: 4px;\">\n        <span style=\"background-color: #f2f6fb; color: #54698d; padding: 6px 12px; border-radius: 20px; font-size: 14px;\">Posted 29 April 2025</span>\n        <span style=\"margin: 0 10px; color: #ccd0d9;\">•</span>\n        <span style=\"color: #54698d; font-size: 14px;\">Job ID: JR288523</span>\n      </div>\n      <button style=\"background-color: #0070d2; color: white; padding: 12px 24px; border: none; border-radius: 6px; margin-top: 16px; cursor: pointer; font-weight: 600; font-size: 16px; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0, 112, 210, 0.3);\">Apply Now</button>\n    </div>\n  </div>\n  <hr style=\"margin: 30px 0; border: none; border-top: 1px solid #f2f6fb;\" />\n  \n  <!-- Job Description -->\n  <div style=\"padding: 0 10px;\">\n    <h2 style=\"font-size: 24px; color: #0070d2; margin-bottom: 16px; font-weight: 600;\">Description</h2>\n    <p style=\"font-size: 16px; line-height: 1.6; margin-bottom: 20px; color: #16325c;\">MuleSoft's Professional Services team works across every technology and system to deliver solutions to customers in every industry. As a Senior Technical Consultant on our Global Services Delivery (GSD) team, you will work hands-on with our customers and partners to address critically important business challenges using MuleSoft's Anypoint Platform. You will provide technical guidance on MuleSoft implementation projects, evaluate the customer's technical and functional requirements, and develop cost-effective solutions to provide customers with demonstrable returns.</p>\n    <p style=\"font-size: 16px; line-height: 1.6; margin-bottom: 25px; color: #16325c;\">As a subject-matter guide in the field, you will develop solutions to help customers realize their business goals and advise them on best practices for on-premise, cloud, and hybrid integration, and API management.</p>\n    \n    <h3 style=\"font-size: 20px; color: #16325c; margin: 30px 0 20px; font-weight: 600;\">What you'll achieve:</h3>\n    \n    <div style=\"background-color: #f9fbfe; border-radius: 10px; padding: 24px; margin-bottom: 24px;\">\n      <h4 style=\"font-size: 18px; color: #0070d2; margin-bottom: 16px; font-weight: 600;\">In 3 months:</h4>\n      <ul style=\"padding-left: 20px; margin-bottom: 5px;\">\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Participate in MuleSoft Technical Product and Consulting Services training and enablement</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Shadow senior consultants and begin contributing to real projects</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Start MuleSoft implementations and understand business outcome relevance</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Complete certifications and begin contributing to internal knowledge sharing</li>\n      </ul>\n    </div>\n    \n    <div style=\"background-color: #f9fbfe; border-radius: 10px; padding: 24px; margin-bottom: 24px;\">\n      <h4 style=\"font-size: 18px; color: #0070d2; margin-bottom: 16px; font-weight: 600;\">In 12 months:</h4>\n      <ul style=\"padding-left: 20px; margin-bottom: 5px;\">\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Lead project deliveries and guide technical standards</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Contribute to internal frameworks and best practices</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Identify field challenges and implement solutions</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Deliver architectural documents and lead design workshops</li>\n      </ul>\n    </div>\n    \n    <h3 style=\"font-size: 20px; color: #16325c; margin: 30px 0 20px; font-weight: 600;\">What you'll need to be successful:</h3>\n    <div style=\"background-color: #f9fbfe; border-radius: 10px; padding: 24px; margin-bottom: 30px;\">\n      <ul style=\"padding-left: 20px;\">\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Degree or equivalent experience (extracurriculars, volunteering, military roles, etc.)</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">5+ years of hands-on integration experience, preferably with MuleSoft</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Experience with API management tools (Apigee, Mashery, etc.)</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Experience with ERP, CRM, e-Commerce platforms like Salesforce, SAP, etc.</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Full project lifecycle experience in integration projects</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Strong collaboration skills with diverse teams</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Understanding of cloud/on-prem deployments, monitoring, and Java development</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Experience in technical documentation and automated testing tools</li>\n        <li style=\"margin-bottom: 12px; color: #16325c;\">Willingness to travel as needed</li>\n        <li style=\"margin-bottom: 12px; color: #16325c; font-weight: 600;\">Fluency in English and French</li>\n      </ul>\n    </div>\n  </div>\n  \n  <div style=\"margin-top: 40px; text-align: center;\">\n    <button style=\"background-color: #0070d2; color: white; padding: 16px 32px; font-size: 18px; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.2s ease; box-shadow: 0 2px 8px rgba(0, 112, 210, 0.3);\">Apply for this job</button>\n  </div>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "1b3ff2e5-d43d-42f1-a654-999628a4c34c",
+              "type" : "component"
+            } ],
+            "id" : "ac94c7bd-2094-4079-b000-c7ccbce5f521",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "18b83489-6348-43c7-b832-3b5846f9b3e5",
+          "type" : "component"
+        } ],
+        "id" : "49f20ef1-608a-4688-831b-d86e1f3f112f",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "7e0d7178-d5e7-487a-b8ef-4552869cd54e",
+          "type" : "component"
+        } ],
+        "id" : "e6f0e11c-8f22-4369-8934-b8f5a2127610",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "a32815f5-7c8e-4081-8b52-3bd3c2ef414a",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

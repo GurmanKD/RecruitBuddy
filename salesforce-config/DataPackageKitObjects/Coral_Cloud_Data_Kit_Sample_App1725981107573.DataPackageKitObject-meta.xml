@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Coral_Cloud_Data_Kit_Sample_App</masterLabel>
+    <parentDataPackageKitDefinitionName>Coral_Cloud_Data_Kit_Sample_App</parentDataPackageKitDefinitionName>
+    <referenceObjectName>ssot__Individual__dlm</referenceObjectName>
+    <referenceObjectType>MktDataModelObject</referenceObjectType>
+</DataPackageKitObject>

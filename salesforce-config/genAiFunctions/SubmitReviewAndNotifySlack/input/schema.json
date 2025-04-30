@@ -1,0 +1,35 @@
+{
+  "required" : [ "applicationId", "interviewerMessage", "passOrFail", "reviewText" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "applicationId" : {
+      "title" : "applicationId",
+      "description" : "application id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "interviewerMessage" : {
+      "title" : "interviewerMessage",
+      "description" : "creaft a beutiful message to interviewer greeting first and give that he has been alloted an interview at a \"generate a random work hour\" time and date  and also send summary report generted by task action GetJobAndApplication\ngeneralize the message, do not make placeholders",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "passOrFail" : {
+      "title" : "passOrFail",
+      "description" : "pass if score of report above 50",
+      "lightning:type" : "lightning__booleanType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "reviewText" : {
+      "title" : "reviewText",
+      "description" : "send the report generted by task action GetApplicationAndJob to Apex code\nmake it in plain text and not markdown",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

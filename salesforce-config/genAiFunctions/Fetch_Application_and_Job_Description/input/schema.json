@@ -1,0 +1,14 @@
+{
+  "required" : [ "applicationId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "applicationId" : {
+      "title" : "applicationId",
+      "description" : "Application ID and 7 answers to a text fields all given at once",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

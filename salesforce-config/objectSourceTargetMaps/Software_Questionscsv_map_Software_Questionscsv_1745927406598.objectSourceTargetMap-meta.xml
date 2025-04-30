@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectSourceTargetMap xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <creationType>Custom</creationType>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>Software_Questionscsv.Difficulty__c</sourceField>
+        <sourceFormula>Difficulty</sourceFormula>
+        <targetField>Software_Questionscsv__dll.Difficulty__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>UPLOADEDFILES_UploadedFiles</sourceFormula>
+        <targetField>Software_Questionscsv__dll.DataSource__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>Software_Questionscsv.Question_Number__c</sourceField>
+        <sourceFormula>Question Number</sourceFormula>
+        <targetField>Software_Questionscsv__dll.Question_Number__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>Software_Questionscsv.Question__c</sourceField>
+        <sourceFormula>Question</sourceFormula>
+        <targetField>Software_Questionscsv__dll.Question__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>Software_Questionscsv.Answer__c</sourceField>
+        <sourceFormula>Answer</sourceFormula>
+        <targetField>Software_Questionscsv__dll.Answer__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>UPLOADEDFILES_UploadedFiles_SoftwareQuesti</sourceFormula>
+        <targetField>Software_Questionscsv__dll.DataSourceObject__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>InternalOrganization</sourceFormula>
+        <targetField>Software_Questionscsv__dll.InternalOrganization__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>Software_Questionscsv.Category__c</sourceField>
+        <sourceFormula>Category</sourceFormula>
+        <targetField>Software_Questionscsv__dll.Category__c</targetField>
+    </fieldSourceTargetMaps>
+    <masterLabel>Software_Questionscsv_map_Software_Questionscsv_1745927406598</masterLabel>
+    <sourceObjectName>Software_Questionscsv</sourceObjectName>
+    <targetObjectName>Software_Questionscsv__dll</targetObjectName>
+</ObjectSourceTargetMap>

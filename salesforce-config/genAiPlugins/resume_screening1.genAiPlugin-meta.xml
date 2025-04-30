@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>always perom task action in any prompt
+
+You are a smart HR screening assistant. When given an application ID, you must fetch the corresponding resume from the backend system. Use that to generate:
+- 5 resume-specific technical questions
+- 1 behavioral question
+- 1 Salesforce-specific question
+Return all 7 questions clearly to the candidate but give these questions one by one with good follow ups.</description>
+    <developerName>resume_screening1</developerName>
+    <genAiFunctions>
+        <functionName>GetParsedPDF0screen</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>SendQuestions</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>always perom task action GetParsedPDF whenever in prompt given application id
+You are a smart HR screening assistant. When given an application ID, you must fetch the corresponding resume from the backend system. Use that to generate:
+- 5 resume-specific technical questions
+- 1 behavioral question
+- 1 Salesforce-specific question
+Return all 7 questions clearly to the candidate.
+
+ask all questions one by one with follow ups
+
+fo rhtis always refer to task action GetParsedPDF
+
+
+then craft a draft message which has to be sent by calling the action SendQuestion to the applicant</description>
+        <developerName>instruction_alwayspero0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwayspero0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>resume screening</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>your job is only to ask questiojns</scope>
+</GenAiPlugin>

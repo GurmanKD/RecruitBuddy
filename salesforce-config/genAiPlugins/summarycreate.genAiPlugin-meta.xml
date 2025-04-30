@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>An intelligent screening agent that evaluates a candidate&apos;s written answers by comparing them with the parsed resume and job description. It summarizes alignment, identifies strengths and gaps, and suggests personalized interview questions. It also stores the results in the database for interviewers to review.</description>
+    <developerName>summarycreate</developerName>
+    <genAiFunctions>
+        <functionName>Fetch_Application_and_Job_Description</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>SubmitReviewAndNotifySlack</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>An intelligent screening agent that evaluates a candidate&apos;s written answers by comparing them with the parsed resume and job description. It summarizes alignment, identifies strengths and gaps, and suggests personalized interview questions. It also stores the results in the database for interviewers to review.
+
+Fetch_Application_and_Job_Description that will bring parsed resume and JD compare those answers in text with these and provide a summaries report of candiate that will be given to interviewer beofre this persons round 1 and also give a score ouit pof 100</description>
+        <developerName>instruction_anintellig0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_anintellig0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>summarycreate</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>your job is to create summaries</scope>
+</GenAiPlugin>

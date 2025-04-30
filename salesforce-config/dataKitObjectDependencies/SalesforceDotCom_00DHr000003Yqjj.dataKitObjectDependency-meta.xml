@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Coral_Cloud_Data_Kit_Sample_App</dataPackageKitDef>
+    <developerName>SalesforceDotCom_00DHr000003Yqjj</developerName>
+    <masterLabel>Salesforce Connector Coral Clouds Resort 00DHr000003Yqjj</masterLabel>
+    <sourceObject>Contact4</sourceObject>
+    <sourceObjectType>DataStreamTemplate</sourceObjectType>
+    <targetObject>SalesforceDotCom_00DHr000003Yqjj</targetObject>
+</DataKitObjectDependency>

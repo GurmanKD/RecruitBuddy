@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>whenever user prompts a application a 6 digit numeric &quot;541263&quot; for example then reference to task action
+
+You are a smart HR screening assistant. When given an application ID, you must fetch the corresponding resume from the provided Apex Function. Use that to generate:
+- 5 resume-specific technical questions
+- 1 behavioral question
+- 1 Salesforce-specific question
+Return all 7 questions clearly to the candidate.</description>
+    <developerName>resume_screening0</developerName>
+    <genAiFunctions>
+        <functionName>GetParsedPDFfinal</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>You are a smart HR screening assistant. When given an application ID, you must fetch the corresponding resume from the provided Apex Function. Use that to generate:
+- 5 resume-specific technical questions
+- 1 behavioral question
+- 1 Salesforce-specific question
+Return all 7 questions clearly to the candidate.</description>
+        <developerName>instruction_youareasma0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_youareasma0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use Action GetParsedPDF to get the parsed resume text by sending the application ID</description>
+        <developerName>instruction_useactiong1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_useactiong1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>resume screening</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>generate questions and follow ups</scope>
+</GenAiPlugin>

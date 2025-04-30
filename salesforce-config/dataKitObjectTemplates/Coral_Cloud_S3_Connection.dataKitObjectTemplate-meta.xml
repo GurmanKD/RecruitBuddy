@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;connection&quot;:{&quot;connectorType&quot;:&quot;AwsS3&quot;,&quot;method&quot;:&quot;Ingress&quot;,&quot;credentials&quot;:[{&quot;paramName&quot;:&quot;authenticationOption&quot;,&quot;value&quot;:&quot;accessKeyAndSecret&quot;}],&quot;lastModifiedDate&quot;:&quot;2024-09-10T15:16:20.000Z&quot;,&quot;editable&quot;:true,&quot;connectorLabel&quot;:&quot;Amazon S3&quot;,&quot;deletable&quot;:true,&quot;label&quot;:&quot;Coral Cloud S3 Connection&quot;,&quot;params&quot;:[{&quot;paramName&quot;:&quot;bucketName&quot;,&quot;value&quot;:&quot;coral-cloud&quot;},{&quot;paramName&quot;:&quot;parentDirectory&quot;,&quot;value&quot;:&quot;/&quot;}],&quot;url&quot;:&quot;/services/data/v61.0/ssot/connections/9cgHr000000GoEDIA0&quot;,&quot;createdDate&quot;:&quot;2024-09-10T15:16:16.000Z&quot;,&quot;name&quot;:&quot;Coral_Cloud_S3_Connection&quot;,&quot;namespace&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;/cdp/images/connectors/AwsS3.svg&quot;,&quot;id&quot;:&quot;9cgHr000000GoEDIA0&quot;,&quot;syncStatus&quot;:&quot;None&quot;,&quot;status&quot;:&quot;Active&quot;}}</entityPayload>
+    <masterLabel>Coral Cloud S3 Connection</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>Coral_Cloud_S3_Connection</sourceObject>
+    <sourceObjectType>MktDataConnection</sourceObjectType>
+    <templateVersion>2</templateVersion>
+</DataKitObjectTemplate>

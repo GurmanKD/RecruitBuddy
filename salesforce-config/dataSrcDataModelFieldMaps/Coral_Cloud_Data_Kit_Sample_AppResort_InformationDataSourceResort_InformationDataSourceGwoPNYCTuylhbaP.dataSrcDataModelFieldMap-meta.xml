@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>Coral_Cloud_Data_Kit_Sample_AppResort_InformationDataSourceResort_InformationDataSourceGwoPNYCTuylhbaP</masterLabel>
+    <sourceField>Resort_Information.DataSource__c</sourceField>
+    <targetField>Resort_Information__dlm.DataSource__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

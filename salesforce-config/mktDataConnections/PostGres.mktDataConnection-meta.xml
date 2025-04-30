@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktDataConnection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectionMethod>Ingress</connectionMethod>
+    <connectionStatus>ACTIVE</connectionStatus>
+    <connectorName>AzurePostgres</connectorName>
+    <credentials>
+        <fullName>PostGres_password</fullName>
+        <credentialName>password</credentialName>
+        <value>*</value>
+    </credentials>
+    <credentials>
+        <fullName>PostGres_user</fullName>
+        <credentialName>user</credentialName>
+        <value>*</value>
+    </credentials>
+    <externalRecordIdentifier>465cb269-7b50-4ac9-8244-316802cf0ea8</externalRecordIdentifier>
+    <masterLabel>PostGres</masterLabel>
+    <parameters>
+        <fullName>PostGres_DATABASE</fullName>
+        <paramName>DATABASE</paramName>
+        <value>postgres</value>
+    </parameters>
+    <parameters>
+        <fullName>PostGres_jdbc_connection_url</fullName>
+        <paramName>jdbc_connection_url</paramName>
+        <value>tdxbangalore.postgres.database.azure.com</value>
+    </parameters>
+    <parameters>
+        <fullName>PostGres_SCHEMA</fullName>
+        <paramName>SCHEMA</paramName>
+        <value>public</value>
+    </parameters>
+</MktDataConnection>

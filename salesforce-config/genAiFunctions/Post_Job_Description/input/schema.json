@@ -1,0 +1,35 @@
+{
+  "required" : [ "deadline", "description", "location", "title" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "deadline" : {
+      "title" : "Deadline (YYYY-MM-DD)",
+      "description" : "the deadline date here",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "description" : {
+      "title" : "Description",
+      "description" : "Description that involves the entire jd that you have produced",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "location" : {
+      "title" : "Location",
+      "description" : "Location of Job",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "title" : {
+      "title" : "Title",
+      "description" : "Title and Role of Job",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

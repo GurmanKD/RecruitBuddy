@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectSourceTargetMap xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <creationType>Custom</creationType>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>jobdataset1.Serial_Number__c</sourceField>
+        <sourceFormula>Serial Number</sourceFormula>
+        <targetField>jobdataset1__dll.Serial_Number__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>UPLOADEDFILES_UploadedFiles</sourceFormula>
+        <targetField>jobdataset1__dll.DataSource__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>jobdataset1.Job_Description__c</sourceField>
+        <sourceFormula>Job Description</sourceFormula>
+        <targetField>jobdataset1__dll.Job_Description__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>InternalOrganization</sourceFormula>
+        <targetField>jobdataset1__dll.InternalOrganization__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>UPLOADEDFILES_UploadedFiles_jcsv</sourceFormula>
+        <targetField>jobdataset1__dll.DataSourceObject__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>jobdataset1.Job_Title__c</sourceField>
+        <sourceFormula>Job Title</sourceFormula>
+        <targetField>jobdataset1__dll.Job_Title__c</targetField>
+    </fieldSourceTargetMaps>
+    <masterLabel>jobdataset1_map_jobdataset1_1745926634018</masterLabel>
+    <sourceObjectName>jobdataset1</sourceObjectName>
+    <targetObjectName>jobdataset1__dll</targetObjectName>
+</ObjectSourceTargetMap>

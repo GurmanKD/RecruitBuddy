@@ -1,0 +1,14 @@
+<template>
+  <lightning-card title="Job Openings">
+    <div class="slds-m-around_medium">
+      <template for:each={jobListings} for:item="job">
+        <div key={job.job_id} class="slds-box slds-box_xx-small slds-m-bottom_small">
+          <h3>{job.title}</h3>
+          <p><strong>Location:</strong> {job.location}</p>
+          <p><strong>Deadline:</strong> {formattedDeadline}</p>
+          <p>{job.description}</p>
+        </div>
+      </template>
+    </div>
+  </lightning-card>
+</template>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Round 0 Status --></label>
+    <name>Round_0_Status__c</name>
+    <picklistValues>
+        <masterLabel>Asked</masterLabel>
+        <translation><!-- Asked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Confirmed</masterLabel>
+        <translation><!-- Confirmed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Scheduled</masterLabel>
+        <translation><!-- Not Scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skipped</masterLabel>
+        <translation><!-- Skipped --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,704 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"2bd3891e-6015-41f3-8aae-e82a6e93bcf8\",\"columns\":[{\"UUID\":\"a1a1ecb6-af50-4f45-a1b3-a506db1911fb\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "Jobs",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "63579345-ee06-4abe-9f6c-fd1e8bfec93b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<p>Use this HTML Editor to add your own markup.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "573f6e1b-f651-4a19-bd69-a171d405e784",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<!DOCTYPE html>\n<div lang=\"en\">\n<iframe src=\"https://reg.ccstiet.com/\"/>\n</div>"
+              },
+              "customCssClasses" : "iframe",
+              "definition" : "community_builder:htmlEditor",
+              "id" : "48ddb20e-999e-460a-abb0-64c72822e0ae",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "dxpStyle" : {
+                  "padding" : {
+                    "bottom" : "10px",
+                    "left" : "10px",
+                    "right" : "10px",
+                    "top" : "10px"
+                  }
+                },
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"356862cf-3921-4f50-816b-060396204f2d\",\"columns\":[{\"UUID\":\"2ed0857d-cdee-479f-9e72-8c1de00188cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"6001a492-5dae-4abb-a302-3f98dc6fb1f2\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "10px",
+                        "right" : "10px",
+                        "top" : "10px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Filter Jobs",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "742fc8aa-6cab-453c-b41a-c279fdb88af6",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "0px",
+                        "left" : "10px",
+                        "right" : "10px",
+                        "top" : "0px"
+                      }
+                    },
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Keywords",
+                    "textAlign" : "left",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "56e9722d-f34d-4205-be3e-ec2e32f8af87",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Search Job Title, Skill or, Keyword",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "a4d53f3d-4e7e-457b-bde4-f71dc5e6a6f0",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Country",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "7403ab6c-56ac-44b4-ab0a-b36872b27af2",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 1,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "0cf73e01-9a73-401b-b7ec-95691fd39a25",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Region",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "98c7ba77-e36f-473e-bc40-0d126f4aea9b",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 1,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "77117ba8-5f19-49e8-bb1c-daebfb536940",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Location",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "41cb6fde-f32d-4088-b6fc-9942b21f54ee",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 1,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "c64ceaed-01ed-4f39-a78f-d324dccec55a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Team",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "02325f9f-9958-433d-a60d-ba3eb539b25d",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 1,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "55751954-9cd1-4ba6-85b8-ceca5d763bbe",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Contract",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "f0d6e6c7-e669-4979-891d-0304a50897e9",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 1,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "4f029938-01c1-4afc-9434-0ef3bf997fe7",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Employee Type",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "2617f0a2-d39d-4336-aebc-ab4848a419b9",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "lineStyle" : "solid",
+                    "size" : 1,
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:horizontalLine",
+                  "id" : "641f4c32-1119-4da7-852f-11f9bbfa84fb",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Search",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "2bde02ac-61b5-4b46-94d7-ff78b638918a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "imageInfos" : "",
+                    "richTextValue" : "<p>Use this HTML Editor to add your own markup.</p>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "75c2a0e7-b23a-4203-9f70-4fe5ac184968",
+                  "type" : "component"
+                } ],
+                "id" : "2ed0857d-cdee-479f-9e72-8c1de00188cc",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "autoScrollToMostRecent" : false,
+                    "backgroundColor" : "",
+                    "borderColor" : "",
+                    "borderRadius" : 20,
+                    "borderWidth" : 10,
+                    "dxpStyle" : {
+                      "margin" : {
+                        "bottom" : "10px",
+                        "left" : "10px",
+                        "right" : "10px",
+                        "top" : "10px"
+                      }
+                    },
+                    "isOrderReversed" : false,
+                    "itemSpacing" : "small",
+                    "listType" : "unformatted",
+                    "orderedMarkerAlignment" : "middle",
+                    "orderedMarkerColor" : "",
+                    "orderedMarkerSize" : "body-regular",
+                    "orderedMarkerStartValue" : 1,
+                    "orderedMarkerStyle" : "numbers",
+                    "showPagination" : false,
+                    "unorderedMarkerAlignment" : "middle",
+                    "unorderedMarkerColor" : "",
+                    "unorderedMarkerSize" : "body-regular",
+                    "unorderedMarkerStyle" : "filled-dots",
+                    "width" : 90
+                  },
+                  "children" : [ {
+                    "children" : [ {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "flex-start",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "10px",
+                            "left" : "10px",
+                            "right" : "10px",
+                            "top" : "10px"
+                          }
+                        },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"54771a70-0e2d-4823-8e9a-dea8dc9c6f73\",\"columns\":[{\"UUID\":\"c822eb0f-6c83-45e4-ac61-5b497e8685ab\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"a374875f-af12-4f07-9fa7-f67d062d0771\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "10px",
+                                "top" : "10px"
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Software Engineering",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-small\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "0e06a960-8ba1-4a32-9ff2-d3f9e9eb0b58",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Data Science Intern",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "9ce54135-de21-4571-8b74-89aa931115c4",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Hyderabad, India",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "47a044b7-160f-4604-a0a4-0ee2f1037a4c",
+                          "type" : "component"
+                        } ],
+                        "id" : "c822eb0f-6c83-45e4-ac61-5b497e8685ab",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "size" : "standard",
+                            "stretch" : "standard",
+                            "text" : "Apply",
+                            "type" : "primary",
+                            "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{}}}}"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "43e40790-d6aa-46a2-a42d-7ee7b722ecce",
+                          "type" : "component"
+                        } ],
+                        "id" : "a374875f-af12-4f07-9fa7-f67d062d0771",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "54771a70-0e2d-4823-8e9a-dea8dc9c6f73",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "center",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "10px",
+                            "left" : "10px",
+                            "right" : "10px",
+                            "top" : "10px"
+                          }
+                        },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"bf31146f-9ea3-4bd0-85ff-7b0f95fe4c32\",\"columns\":[{\"UUID\":\"7b5e73c4-b44c-428e-8779-d3e92e2b8124\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"b61d1a44-26d3-4cc4-aeb6-c00538364539\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "dxpStyle" : {
+                              "margin" : {
+                                "bottom" : "10px",
+                                "left" : "10px",
+                                "right" : "10px",
+                                "top" : "10px"
+                              }
+                            },
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Software Engineering",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-small\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "87e036f5-f60a-471f-acd5-d9ff1a2d7062",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Software Development Intern",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "ca4e36ab-5e93-417d-9514-1394cc186462",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Pune, Maharashtra",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "9633822d-8f86-4914-8315-8c8beebd7264",
+                          "type" : "component"
+                        } ],
+                        "id" : "7b5e73c4-b44c-428e-8779-d3e92e2b8124",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "size" : "standard",
+                            "stretch" : "standard",
+                            "text" : "Apply",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "cc3e6987-8d5f-4b69-93bd-538500716707",
+                          "type" : "component"
+                        } ],
+                        "id" : "b61d1a44-26d3-4cc4-aeb6-c00538364539",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "bf31146f-9ea3-4bd0-85ff-7b0f95fe4c32",
+                      "type" : "component"
+                    }, {
+                      "attributes" : {
+                        "columnGutterWidth" : "",
+                        "columnMinHeight" : "",
+                        "columnVerticalAlign" : "center",
+                        "dxpStyle" : {
+                          "padding" : {
+                            "bottom" : "10px",
+                            "left" : "10px",
+                            "right" : "10px",
+                            "top" : "10px"
+                          }
+                        },
+                        "layoutDirectionDesktop" : "row",
+                        "layoutDirectionMobile" : "column",
+                        "layoutDirectionTablet" : "column",
+                        "sectionConfig" : "{\"UUID\":\"6c28851f-da5f-43c6-8a39-8e230cd8aa5a\",\"columns\":[{\"UUID\":\"786c92f3-9593-47a7-a8aa-581d8178714c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"6b94cf5d-ac37-4251-b5e1-1d67c4963503\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "App Development Intern",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"h3\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "fef8df14-fa23-4919-84e5-56d0aa3176c0",
+                          "type" : "component"
+                        }, {
+                          "attributes" : {
+                            "backgroundColor" : "",
+                            "isLinkable" : false,
+                            "linkAssistiveText" : "",
+                            "paddingHorizontal" : "none",
+                            "paddingVertical" : "none",
+                            "text" : "Mumbai, Maharashtra",
+                            "textAlign" : "left",
+                            "textDecoration" : "{}",
+                            "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\",\"enableOverride\":false}"
+                          },
+                          "definition" : "dxp_base:textBlock",
+                          "id" : "bea50100-8ffa-408d-86ab-a44dfa730531",
+                          "type" : "component"
+                        } ],
+                        "id" : "786c92f3-9593-47a7-a8aa-581d8178714c",
+                        "name" : "col1",
+                        "title" : "Column 1",
+                        "type" : "region"
+                      }, {
+                        "children" : [ {
+                          "attributes" : {
+                            "alignment" : "center",
+                            "size" : "standard",
+                            "stretch" : "standard",
+                            "text" : "Apply",
+                            "type" : "primary"
+                          },
+                          "definition" : "dxp_base:button",
+                          "id" : "99f4c592-313f-4fe1-b512-305314a43725",
+                          "type" : "component"
+                        } ],
+                        "id" : "6b94cf5d-ac37-4251-b5e1-1d67c4963503",
+                        "name" : "col2",
+                        "title" : "Column 2",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_layout:columns",
+                      "id" : "6c28851f-da5f-43c6-8a39-8e230cd8aa5a",
+                      "type" : "component"
+                    } ],
+                    "id" : "ec9d4fae-a919-4bf3-ac51-bcf8ea34263f",
+                    "name" : "sfdcRepeaterItem",
+                    "title" : "sfdcRepeaterItem",
+                    "type" : "region"
+                  }, {
+                    "children" : [ {
+                      "attributes" : {
+                        "paginatorAttributes" : "{\"nested\":{\"componentName\":\"dxp_content_layout:paginatorShowMore\",\"attributes\":{\"label\":\"Show More\",\"textDecoration\":\"{}\",\"buttonStyle\":\"secondary\",\"size\":\"standard\",\"width\":\"standard\",\"verticalPadding\":\"none\",\"horizontalAlignment\":\"center\"}}}",
+                        "variant" : "showmore"
+                      },
+                      "children" : [ {
+                        "children" : [ {
+                          "attributes" : { },
+                          "definition" : "dxp_page_layout:placeHolder",
+                          "id" : "8d0cfbf4-1a84-46b7-979b-03409ff81d64",
+                          "type" : "component"
+                        } ],
+                        "id" : "4a0ea4d7-2e94-4deb-a78a-e15521ca5f16",
+                        "name" : "placeholder",
+                        "title" : "placeholder",
+                        "type" : "region"
+                      } ],
+                      "definition" : "dxp_content_layout:paginator2",
+                      "id" : "a495ac96-a629-47ee-abaa-d5f7c7d8a2a1",
+                      "type" : "component"
+                    } ],
+                    "id" : "85a5cb67-3f77-46d7-be89-2a82d6fdfc7a",
+                    "name" : "pagination",
+                    "title" : "pagination",
+                    "type" : "region"
+                  } ],
+                  "definition" : "dxp_content_layout:list",
+                  "id" : "7688864b-2035-4759-8a6d-14e16da05c8a",
+                  "type" : "component",
+                  "dataProviders" : [ {
+                    "definition" : "sfdc_cms__recordListViewDataProvider",
+                    "sfdcExpressionKey" : "Item",
+                    "attributes" : {
+                      "objectApiName" : "Job_List__c",
+                      "pageSize" : 3
+                    }
+                  } ]
+                } ],
+                "id" : "6001a492-5dae-4abb-a302-3f98dc6fb1f2",
+                "name" : "col2",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "356862cf-3921-4f50-816b-060396204f2d",
+              "type" : "component"
+            } ],
+            "id" : "a1a1ecb6-af50-4f45-a1b3-a506db1911fb",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "2bd3891e-6015-41f3-8aae-e82a6e93bcf8",
+          "type" : "component"
+        } ],
+        "id" : "8288b2bb-4ad4-449b-9c5e-6aa861084158",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c1813f24-574c-4574-8c64-37df83f5e374",
+          "type" : "component"
+        } ],
+        "id" : "d7435755-f71c-4fa7-a28b-61bb53d37699",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "09f3df6f-c0b9-4e0c-ac25-409c33bdc21d",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

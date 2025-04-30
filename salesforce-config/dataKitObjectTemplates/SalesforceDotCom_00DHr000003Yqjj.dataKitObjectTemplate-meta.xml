@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;devName&quot;:&quot;SalesforceDotCom_00DHr000003Yqjj&quot;,&quot;masterLabel&quot;:&quot;Salesforce Connector Coral Clouds Resort 00DHr000003Yqjj&quot;,&quot;dataConnectorType&quot;:&quot;SalesforceDotCom&quot;,&quot;extRecordId&quot;:&quot;00DHr000003Yqjj&quot;,&quot;alias&quot;:null,&quot;dsTenantDevName&quot;:&quot;SalesforceDotCom_core_prod_00DHr000003YqjjMAC&quot;,&quot;dsTenantMasterLabel&quot;:&quot;Coral Clouds Resort&quot;,&quot;dsTenantExtRecordId&quot;:&quot;core/prod/00DHr000003YqjjMAC&quot;}</entityPayload>
+    <masterLabel>Salesforce Connector Coral Clouds Resort 00DHr000003Yqjj</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>0hMHr000000TWQcMAO</sourceObject>
+    <sourceObjectType>InternalDataConnector</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

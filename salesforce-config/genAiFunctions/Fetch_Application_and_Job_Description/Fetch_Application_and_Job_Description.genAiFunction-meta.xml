@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Compare the 7 answers to the question given in text field and compare those answers with JD and resume and creta a summary repoert for interview beofre taking the intervie and also provide a score to the round 0 answrrs of cnadate acc to this cinpariaon create a very nice formtted report for intevriewr to make his work easy</description>
+    <invocationTarget>GetApplicationAndJob</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <masterLabel>Fetch Application and Job Description</masterLabel>
+</GenAiFunction>

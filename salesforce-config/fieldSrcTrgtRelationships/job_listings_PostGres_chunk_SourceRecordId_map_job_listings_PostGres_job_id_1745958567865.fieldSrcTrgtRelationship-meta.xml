@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSrcTrgtRelationship xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <definitionCreationType>System</definitionCreationType>
+    <lookupFieldName>job_listings_PostGres_chunk__dlm.rel_1745958567865_end__c</lookupFieldName>
+    <masterLabel>job_listings_PostGres_chunk_SourceRecordId_map_job_listings_PostGres_job_id_1745958567865</masterLabel>
+    <owner>DataCloud</owner>
+    <relationshipCardinality>ManyToOne</relationshipCardinality>
+    <sourceFieldName>job_listings_PostGres_chunk__dlm.SourceRecordId__c</sourceFieldName>
+    <targetEntity xsi:nil="true"/>
+    <targetFieldName>job_listings_PostGres__dlm.job_id__c</targetFieldName>
+</FieldSrcTrgtRelationship>

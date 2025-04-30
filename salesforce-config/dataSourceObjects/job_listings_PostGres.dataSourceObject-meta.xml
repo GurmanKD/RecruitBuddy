@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSource>AzurePostgres_PostGres</dataSource>
+    <externalRecordIdentifier>job_listings</externalRecordIdentifier>
+    <masterLabel>job_listings</masterLabel>
+    <storageType>LOCAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>
